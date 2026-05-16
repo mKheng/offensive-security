@@ -1,8 +1,7 @@
 # Hack The Box Write-ups
 
-Contains:
-- Active machine walkthroughs
-- Privilege escalation notes
-- Enumeration methodology
-- CVE analysis
-- Post-exploitation observations
+Contains Hack The Box machine write-ups and notes.
+
+## Machines
+
+- [HELIX Machine - HTB](helix-machine-htb.md)
