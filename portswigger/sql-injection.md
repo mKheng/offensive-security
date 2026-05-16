@@ -1,7 +1,5 @@
 # SQL Injection
 
-Source: https://www.notion.so/31e4d37069a8801e90a3fbd4a8a0db06
-
 SQL Injection là lỗ hổng cho phép attacker can thiệp vào truy vấn mà ứng dụng gửi tới cơ sở dữ liệu.
 
 ## Impact
@@ -26,4 +24,3 @@ Các payload/dấu hiệu thường dùng khi kiểm tra:
 ## Ghi Chú
 
 Khi test SQLi, ưu tiên quan sát sự khác biệt có kiểm soát giữa response đúng/sai thay vì chỉ dựa vào lỗi. Với blind SQLi, dùng boolean-based, time-based hoặc OAST để xác nhận.
-

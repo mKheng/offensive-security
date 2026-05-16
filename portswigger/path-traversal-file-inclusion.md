@@ -1,7 +1,5 @@
 # Path Traversal & File Inclusion
 
-Source: https://www.notion.so/31e4d37069a88075b192cfe16190866d
-
 ## Path Traversal
 
 Path traversal, hay directory traversal, xảy ra khi ứng dụng nhận đường dẫn file từ người dùng nhưng không kiểm soát hoặc chuẩn hóa đầu vào đúng cách. Kẻ tấn công có thể dùng chuỗi như `../` hoặc `..\` để thoát khỏi thư mục dự kiến và đọc file nhạy cảm trên server.
@@ -46,4 +44,3 @@ https://example.com/index.php?page=../../../../etc/passwd
 ```
 
 RFI thường phụ thuộc cấu hình như `allow_url_include = On`.
-

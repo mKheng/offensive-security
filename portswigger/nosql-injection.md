@@ -1,7 +1,5 @@
 # NoSQL Injection
 
-Source: https://www.notion.so/31e4d37069a8803ea388db2e4d758444
-
 ## Tổng Quan
 
 NoSQL Injection xảy ra khi input của user được đưa vào truy vấn NoSQL mà không validate hoặc encode đúng cách. Với MongoDB, attacker thường lạm dụng operator như `$ne`, `$regex`, `$nin` hoặc chèn biểu thức logic.
@@ -72,4 +70,3 @@ flag[$regex]=^.{0}a
 - Chặn key bắt đầu bằng `$`.
 - Dùng allowlist field.
 - Ép kiểu string/number trước khi query.
-

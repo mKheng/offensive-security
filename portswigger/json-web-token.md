@@ -1,7 +1,5 @@
 # JSON Web Token
 
-Source: https://www.notion.so/31e4d37069a88056974edeeb16dcd1f2
-
 ## JWT Là Gì?
 
 JWT là định dạng chuẩn để gửi dữ liệu JSON được ký giữa các hệ thống. JWT thường dùng cho authentication/authorization.
@@ -83,4 +81,3 @@ Các vector đáng chú ý:
 - Không dùng secret yếu.
 - Validate `kid`, `jwk`, `jku` nghiêm ngặt.
 - Dùng allowlist JWKS host nếu cần remote key.
-

@@ -1,7 +1,5 @@
 # XXE
 
-Source: https://www.notion.so/32a4d37069a880a39387da85e740de02
-
 ## Tổng Quan
 
 XXE là XML External Entity Injection. Lỗ hổng xảy ra khi ứng dụng parse XML nhưng vẫn cho phép external entity, DTD, XInclude hoặc tính năng XML nguy hiểm khác.
@@ -85,4 +83,3 @@ Một số server chấp nhận `text/xml` hoặc `application/xml` dù endpoint
 - Không parse XML từ user input nếu không cần.
 - Validate strict content type.
 - Cấu hình parser an toàn theo ngôn ngữ/framework.
-

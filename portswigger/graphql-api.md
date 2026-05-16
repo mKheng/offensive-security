@@ -1,7 +1,5 @@
 # GraphQL API
 
-Source: https://www.notion.so/3454d37069a8800db701f94dfbedaa61
-
 ## Tổng Quan
 
 GraphQL là API query language cho phép client chỉ định chính xác dữ liệu muốn lấy. Khác REST, GraphQL thường dùng một endpoint duy nhất, ví dụ `POST /graphql`.
@@ -151,4 +149,3 @@ Nếu endpoint chấp nhận `application/x-www-form-urlencoded` hoặc `GET` ch
 - Strict content type: chỉ nhận `application/json` cho POST.
 - CSRF token và cookie `SameSite`.
 - Persisted queries hoặc allowlist cho operation quan trọng.
-

@@ -1,7 +1,5 @@
 # Prototype Pollution
 
-Source: https://www.notion.so/3314d37069a880148212d66e83e78f5a
-
 ## Khái Niệm
 
 Prototype pollution xảy ra khi attacker có thể inject property vào prototype của object JavaScript, ví dụ `Object.prototype`. Khi prototype đã bị pollute, mọi object kế thừa từ nó có thể bị ảnh hưởng.
@@ -95,4 +93,3 @@ Client-side XSS:
 - Dùng `Map` thay plain object khi phù hợp.
 - Dùng `Object.hasOwn()` khi iterate.
 - Validate input bằng schema như Joi hoặc Zod.
-

@@ -1,7 +1,5 @@
 # HTTP Request Smuggling
 
-Source: https://www.notion.so/3584d37069a880c19411cb45451fee2a
-
 ## Tổng Quan
 
 HTTP request smuggling là kỹ thuật lợi dụng việc front-end server và back-end server diễn giải ranh giới request HTTP khác nhau. Trong kiến trúc hiện đại, request thường đi qua CDN, WAF, load balancer, reverse proxy rồi mới tới back-end. Nếu các thành phần này không thống nhất cách xác định điểm kết thúc request, attacker có thể nhét một request ẩn vào kết nối dùng chung.
@@ -95,4 +93,3 @@ X-Ignore: X
 - Không reuse TCP connection giữa FE và BE nếu không cần.
 - Normalize request tại front-end.
 - Scan bằng Burp Suite HTTP Request Smuggler.
-
